@@ -1,0 +1,27 @@
+{
+  "name": "playwright-js-test-framework",
+  "version": "1.0.0",
+  "description": "Playwright + JavaScript automation framework using Page Object Model (POM)",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "test:debug": "playwright test --debug",
+    "test:chromium": "playwright test --project=chromium",
+    "report": "playwright show-report"
+  },
+  "keywords": [
+    "playwright",
+    "automation",
+    "javascript",
+    "pom",
+    "testing"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.50.1",
+    "dotenv": "^18.0.9"
+  }
+}
